@@ -139,8 +139,7 @@ std::wstring calc1(int value) {
 
 	std::wstring s2 = calc1((value - i2) / 2).append(L"2").append(std::wstring(i2, '1'));
 
-	//return (s3.length() <= s2.length()) ? s3 : s2;
-	return (s3.compare(s2) >= 0) ? s3 : s2;
+	return (s3.length() <= s2.length()) ? s3 : s2;
 }
 
 std::wstring calc2(int value) {
