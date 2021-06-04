@@ -10,4 +10,5 @@ Determine what is the smallest number of operations necessary to get the specifi
 Print this set of operations as string of the form "331221".
 
 The string "331221" means:
+
 "331221" => ((X * 3 * 3 + 1) * 2 * 2 + 1 = 41
